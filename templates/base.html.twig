@@ -4,6 +4,10 @@
       {% include "layout/head.html.twig" %}
 
     <body>
+      <!-- mon header est inclus dans le layout header.html.twig -->
+      {% include "layout/header.html.twig" %}
         {% block body %}{% endblock %}
+        <!-- mon footer est inclus dans le layout footer.html.twig -->
+        {% include "layout/footer.html.twig" %}
     </body>
 </html>
